@@ -1,0 +1,45 @@
+.bicycle-list {
+  padding: 6rem 0 12rem 0;
+}
+
+.bicycle-list h2 {
+  margin: 0 auto 4rem auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  max-width: 120rem;
+}
+
+.bicycle-list ul {
+  display: flex;
+  gap: 4rem;
+  padding: 0 2rem;
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+.bicycle-list a {
+  display: block;
+}
+
+.bicycle-list img {
+  margin-bottom: 1.6rem;
+}
+
+.bicycle-list h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.bicycle-list h3::before {
+  content: '';
+  display: inline-block;
+  height: 0.8rem;
+  width: 1.2rem;
+  margin-right: 0.8rem;
+  background-color: var(--cor-p1);
+}
+
+.bicycle-list li span {
+  padding-left: 2rem;
+}

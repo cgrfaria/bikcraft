@@ -7,3 +7,6 @@
 
 /********************** HOME *********************/
 @import './home/introduction.css';
+
+/********************** BICYCLES *********************/
+@import './bicycle/bicycle-list.css';
