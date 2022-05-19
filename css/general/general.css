@@ -1,0 +1,32 @@
+html {
+  /* A cada 1rem = 10px */
+  font-size: 62.5%;
+}
+
+body,
+ul,
+h1,
+p {
+  margin: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 60rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
