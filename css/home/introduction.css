@@ -7,10 +7,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 4rem;
-  box-sizing: border-box;
-  max-width: 120rem;
-  padding: 0 2rem;
-  margin: 0 auto;
 }
 
 .intro-conteudo {
