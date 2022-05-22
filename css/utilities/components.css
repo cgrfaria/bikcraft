@@ -27,3 +27,22 @@
     font-size: 1.6rem;
   }
 }
+
+.link {
+  display: inline-block;
+  color: var(--cor-p1);
+  font: 500 2.4rem/1.5 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+.link::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 0.4rem;
+  background-color: currentColor;
+}
+
+.link:hover {
+  color: var(--cor-0);
+}
