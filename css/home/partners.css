@@ -43,6 +43,9 @@
   .partners ul {
     grid-template-columns: repeat(2, 1fr);
   }
+  .partners li {
+    padding: 2rem;
+  }
   .partners li:nth-child(n + 3) {
     border-top: 0.2rem solid var(--cor-2);
   }
