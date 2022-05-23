@@ -8,6 +8,7 @@
 /********************** HOME *********************/
 @import './home/introduction.css';
 @import './home/tecnology.css';
+@import './home/partners.css';
 
 /********************** BICYCLES *********************/
 @import './bicycle/bicycle-list.css';
