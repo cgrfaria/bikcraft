@@ -1,6 +1,7 @@
 /******************** GENERAL ********************/
 @import './general/general.css';
 @import './general/header.css';
+@import './general/footer.css';
 @import './utilities/components.css';
 @import './utilities/typography.css';
 @import './utilities/colors.css';
