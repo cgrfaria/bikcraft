@@ -55,3 +55,23 @@
 .link:hover {
   color: var(--cor-0);
 }
+
+.title-bg {
+  background-color: var(--cor-11);
+  padding: 6rem 0;
+}
+
+.title p {
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 800px) {
+  .title-bg {
+    padding: 4rem 0;
+  }
+  .title p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: lowercase;
+  }
+}
