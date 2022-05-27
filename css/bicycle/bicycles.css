@@ -1,0 +1,75 @@
+.bicycles-bg {
+  background-color: var(--cor-11);
+}
+
+.bicycles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  padding: 6rem 0;
+}
+
+.bicycles-image {
+  display: grid;
+  margin-left: 2rem;
+}
+
+.bicycles-image img {
+  grid-area: 1/1;
+}
+
+.bicycles-image span {
+  background-color: var(--cor-12);
+  display: inline-block;
+  grid-area: 1/1;
+  place-self: start end;
+  margin-top: 2rem;
+  border-radius: 0.4rem 0 0 0.4rem;
+  padding: 0.8rem 1.6rem 0.8rem 0.8rem;
+}
+
+.bicycles-content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.bicycles-content h2,
+.bicycles-content p {
+  grid-column: 1/-1;
+}
+
+.bicycles-content h2 {
+  margin-bottom: 2rem;
+}
+
+.bicycles-content h2::before {
+  content: '';
+  display: block;
+  width: 1.2rem;
+  height: 0.8rem;
+  background-color: var(--cor-p1);
+  margin-bottom: 0.8rem;
+}
+
+.bicycles-content p {
+  margin-bottom: 3.2rem;
+}
+
+.bicycles-content a {
+  place-self: end;
+}
+
+.bicycles-content ul {
+  display: grid;
+  gap: 1.6rem;
+}
+
+.bicycles-content li {
+  display: flex;
+  align-items: center;
+}
+
+.bicycles-content img {
+  width: 2.4rem;
+  margin-right: 0.8rem;
+}
