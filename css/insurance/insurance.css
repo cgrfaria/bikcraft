@@ -5,9 +5,13 @@
 .insurance {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  gap: 2rem;
   padding: 6rem 0;
   align-items: center;
+}
+
+#insurance .insurance {
+  padding-top: 0rem;
 }
 
 .insurance h2 {
@@ -19,6 +23,8 @@
   grid-template-columns: 1fr auto;
   background-color: var(--cor-12);
   padding: 3.2rem 3.2rem 3.2rem 6rem;
+  border-radius: 0.4rem;
+  margin: 0 2rem;
 }
 
 .insurance-itens h3 {
