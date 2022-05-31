@@ -3,8 +3,8 @@
 }
 
 .advantages {
-  padding: 12rem 0;
-  margin: 0 2rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
 }
 
 .advantages h2 {
@@ -25,6 +25,12 @@
 .advantages ul li p {
   max-width: 55ch;
 }
+
+/* @media (max-width: 1250px) {
+  .advantages {
+    mar
+  }
+} */
 
 @media (max-width: 800px) {
   .advantages {
