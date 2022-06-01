@@ -1,0 +1,66 @@
+.bicycle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.bicycle-images {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.bicycle-images img {
+  flex: 1;
+  min-width: 20rem;
+}
+
+.bicycle-images img:first-child {
+  min-width: 100%;
+}
+
+.bicycle-content > p {
+  margin-bottom: 3.2rem;
+}
+
+.bicycle-buy {
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 0.8rem 1.2rem;
+  align-items: center;
+  justify-items: start;
+  margin-bottom: 4rem;
+}
+
+.bicycle-buy a {
+  grid-row: span 2;
+}
+
+.bicycle-buy span {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  background-color: var(--cor-12);
+  border-radius: 0.4rem;
+}
+
+.bicycle-content h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.024rem;
+  margin-bottom: 1.2rem;
+}
+
+.bicycle-info,
+.bicycle-datasheet {
+  padding: 3.2rem;
+  background-color: var(--cor-12);
+  border-radius: 0.4rem;
+}
+
+.bicycle-info {
+  margin-bottom: 4rem;
+}
