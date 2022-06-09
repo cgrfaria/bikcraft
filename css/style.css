@@ -5,6 +5,7 @@
 @import './utilities/components.css';
 @import './utilities/typography.css';
 @import './utilities/colors.css';
+@import './utilities/form.css';
 
 /********************** HOME *********************/
 @import './home/introduction.css';
@@ -22,6 +23,10 @@
 @import './insurance/insurance.css';
 @import './insurance/advantages.css';
 @import './insurance/questions.css';
+
+/********************** TERMS *********************/
+@import './contact/contact.css';
+@import './contact/stores.css';
 
 /********************** TERMS *********************/
 @import './terms/terms.css';
