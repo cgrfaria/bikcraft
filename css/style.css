@@ -28,5 +28,8 @@
 @import './contact/contact.css';
 @import './contact/stores.css';
 
+/********************** BUDGET *********************/
+@import './budget/budget.css';
+
 /********************** TERMS *********************/
 @import './terms/terms.css';
