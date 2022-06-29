@@ -42,6 +42,12 @@
   content: '”';
 }
 
+@media (min-width: 1200px) {
+  .testimonial img {
+    max-height: 520px;
+  }
+}
+
 @media (max-width: 800px) {
   .testimonial {
     grid-template-columns: 1fr;
