@@ -44,3 +44,22 @@ function eventsQuestions(question) {
 }
 
 questions.forEach(eventsQuestions);
+
+// bicyclesGallery
+
+const gallery = document.querySelectorAll('.bicycle-images img');
+const galleryContainer = document.querySelector('.bicycle-images');
+
+function changeImage(event) {
+  const img = event.currentTarget;
+  const media = matchMedia('(min-width: 935px)').matches;
+  if (media) {
+    galleryContainer.prepend(img);
+  }
+}
+
+function galleryEvents(img) {
+  img.addEventListener('click', changeImage);
+}
+
+gallery.forEach(galleryEvents);
